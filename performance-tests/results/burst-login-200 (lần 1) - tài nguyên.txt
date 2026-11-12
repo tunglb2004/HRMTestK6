@@ -1,0 +1,13 @@
+Lần chạy: burst-login-200 (lần 1)
+Script: tests/burst-login-200.js
+Lệnh chạy: k6 run tests/burst-login-200.js
+Phiên bản k6: k6.EXE v2.3.0 (commit/e088784614, go1.26.8, windows/amd64)
+Bắt đầu: 2026-11-02T14:49:36+07:00
+Kết thúc: 2026-11-02T14:57:37+07:00
+Kết quả: Có threshold bị vượt
+Nguồn đo tài nguyên: psutil
+
+| Thành phần | Chỉ số | Đỉnh | Trung bình | Đơn vị | Thời điểm đỉnh |
+|---|---|---:|---:|---|---|
+| Máy chạy test | CPU | 15.00 | 6.12 | % | 2026-11-02T14:50:21+07:00 |
+| Máy chạy test | RAM | 18.80 | 18.53 | GB | 2026-11-02T14:52:25+07:00 |

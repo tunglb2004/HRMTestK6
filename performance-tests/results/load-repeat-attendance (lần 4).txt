@@ -1,0 +1,10 @@
+time="2026-11-03T09:36:09+07:00" level=info msg="Tài khoản: bachtungluu@gmail.com (HRM_EMAIL)" source=console
+time="2026-11-03T09:36:10+07:00" level=warning msg="POST /v1/attendance/check-in: HTTP 400 BAD_REQUEST Đã hết giờ check-in (quá 09:30). Vui lòng tạo phiếu giải trình." source=console
+time="2026-11-03T09:36:11+07:00" level=warning msg="POST /v1/attendance/check-in: HTTP 400 BAD_REQUEST Đã hết giờ check-in (quá 09:30). Vui lòng tạo phiếu giải trình." source=console
+time="2026-11-03T09:36:12+07:00" level=warning msg="POST /v1/attendance/check-in: HTTP 400 BAD_REQUEST Đã hết giờ check-in (quá 09:30). Vui lòng tạo phiếu giải trình." source=console
+time="2026-11-03T09:36:13+07:00" level=warning msg="POST /v1/attendance/check-in: HTTP 400 BAD_REQUEST Đã hết giờ check-in (quá 09:30). Vui lòng tạo phiếu giải trình." source=console
+
+=== PERF-003 ===
+Lỗi kỹ thuật: 0.00%
+checkin: mẫu=301 p95=98ms p99=587ms A3, B3, Đạt
+time="2026-11-03T09:41:10+07:00" level=error msg="thresholds on metrics 'expected_response_rate' have been crossed"

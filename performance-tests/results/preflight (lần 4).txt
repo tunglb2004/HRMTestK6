@@ -1,0 +1,4 @@
+time="2026-11-02T16:11:18+07:00" level=info msg="Tài khoản: emp202@example.com (ACCOUNT_INDEX=1)" source=console
+time="2026-11-02T16:11:19+07:00" level=info msg="Preflight: {\"date\":\"2026-11-02\",\"hasShift\":true,\"isHoliday\":false,\"shift\":{\"name\":\"Ca test hiệu năng\",\"checkInTime\":\"08:00\",\"checkOutTime\":\"17:30\",\"isOnline\":false},\"locations\":1,\"state\":\"notCheckedIn\"}" source=console
+
+Checks đạt: 2

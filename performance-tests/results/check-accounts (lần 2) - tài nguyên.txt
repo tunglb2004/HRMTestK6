@@ -1,0 +1,13 @@
+Lần chạy: check-accounts (lần 2)
+Script: seed/check-accounts.js
+Lệnh chạy: k6 run -e EXPECT=notCheckedIn seed/check-accounts.js
+Phiên bản k6: k6.EXE v2.3.0 (commit/e088784614, go1.26.8, windows/amd64)
+Bắt đầu: 2026-11-02T16:58:55+07:00
+Kết thúc: 2026-11-02T16:59:43+07:00
+Kết quả: Có threshold bị vượt
+Nguồn đo tài nguyên: psutil
+
+| Thành phần | Chỉ số | Đỉnh | Trung bình | Đơn vị | Thời điểm đỉnh |
+|---|---|---:|---:|---|---|
+| Máy chạy test | CPU | 10.30 | 4.18 | % | 2026-11-02T16:59:20+07:00 |
+| Máy chạy test | RAM | 18.23 | 18.10 | GB | 2026-11-02T16:59:32+07:00 |

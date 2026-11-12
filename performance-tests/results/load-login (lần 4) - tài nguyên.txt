@@ -1,0 +1,13 @@
+Lần chạy: load-login (lần 4)
+Script: tests/load-login.js
+Lệnh chạy: k6 run -e HOLD=15m tests/load-login.js
+Phiên bản k6: k6.EXE v2.3.0 (commit/e088784614, go1.26.8, windows/amd64)
+Bắt đầu: 2026-11-02T11:24:04+07:00
+Kết thúc: 2026-11-02T11:41:20+07:00
+Kết quả: Đạt threshold
+Nguồn đo tài nguyên: psutil
+
+| Thành phần | Chỉ số | Đỉnh | Trung bình | Đơn vị | Thời điểm đỉnh |
+|---|---|---:|---:|---|---|
+| Máy chạy test | CPU | 35.40 | 9.16 | % | 2026-11-02T11:29:24+07:00 |
+| Máy chạy test | RAM | 18.33 | 17.59 | GB | 2026-11-02T11:34:23+07:00 |

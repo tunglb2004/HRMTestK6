@@ -1,0 +1,43 @@
+{
+  "loginOk": 694,
+  "rateLimited": 0,
+  "conclusion": "Khong gap 429 sau 694 lan login thanh cong. Neu test dung som vi ly do khac, ket qua nay chua ket luan duoc.",
+  "steps": [
+    {
+      "rate": 1,
+      "ok": 31,
+      "dropped": 0,
+      "medMs": 166,
+      "p95Ms": 231,
+      "p99Ms": 261,
+      "maxMs": 268
+    },
+    {
+      "rate": 5,
+      "ok": 151,
+      "dropped": 0,
+      "medMs": 168,
+      "p95Ms": 214,
+      "p99Ms": 225,
+      "maxMs": 242
+    },
+    {
+      "rate": 12,
+      "ok": 361,
+      "dropped": 0,
+      "medMs": 153,
+      "p95Ms": 391,
+      "p99Ms": 985,
+      "maxMs": 1349
+    },
+    {
+      "rate": 35,
+      "ok": 151,
+      "dropped": 25,
+      "medMs": 3190,
+      "p95Ms": 6414,
+      "p99Ms": 9375,
+      "maxMs": 9469
+    }
+  ]
+}

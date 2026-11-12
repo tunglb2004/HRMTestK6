@@ -1,0 +1,6 @@
+time="2026-11-02T16:15:27+07:00" level=info msg="Tài khoản: emp202@example.com (ACCOUNT_INDEX=1)" source=console
+
+=== PERF-010 ===
+Lỗi kỹ thuật: 0.00%
+checkout: mẫu=10 p95=1008ms p99=1071ms A1, B1, Đạt có điều kiện
+time="2026-11-02T16:15:33+07:00" level=error msg="thresholds on metrics 'attendance_success_count' have been crossed"

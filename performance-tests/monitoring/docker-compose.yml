@@ -1,0 +1,49 @@
+# Cổng chỉ mở trên máy này (127.0.0.1) vì Grafana cho xem không cần đăng nhập.
+services:
+  prometheus:
+    image: prom/prometheus:v2.55.1
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --web.enable-remote-write-receiver
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    ports:
+      - "127.0.0.1:9090:9090"
+    extra_hosts:
+      - host.docker.internal:host-gateway
+
+  grafana:
+    image: grafana/grafana:11.3.0
+    environment:
+      GF_AUTH_ANONYMOUS_ENABLED: "true"
+      GF_AUTH_ANONYMOUS_ORG_ROLE: Viewer
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./grafana/dashboards:/var/lib/grafana/dashboards:ro
+    ports:
+      - "127.0.0.1:3000:3000"
+    depends_on:
+      - prometheus
+
+  # Bật bằng: docker compose -f monitoring/docker-compose.yml --profile mysql up -d
+  mysqld-exporter:
+    image: prom/mysqld-exporter:v0.16.0
+    profiles: [mysql]
+    command:
+      - --mysqld.address=${MYSQL_HOST:-host.docker.internal}:${MYSQL_PORT:-3306}
+      - --mysqld.username=${MYSQL_EXPORTER_USER:-exporter}
+    environment:
+      MYSQLD_EXPORTER_PASSWORD: ${MYSQL_EXPORTER_PASSWORD:-}
+    extra_hosts:
+      - host.docker.internal:host-gateway
+
+  # Bật bằng: docker compose -f monitoring/docker-compose.yml --profile docker up -d
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:v0.49.1
+    profiles: [docker]
+    privileged: true
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro

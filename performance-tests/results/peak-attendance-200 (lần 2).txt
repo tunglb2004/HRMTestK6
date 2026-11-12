@@ -1,0 +1,6 @@
+
+=== PERF-018 ===
+Lỗi kỹ thuật: 0.00%
+login: mẫu=200 p95=246ms p99=299ms A3, B3, Đạt
+checkout: mẫu=200 p95=1135ms p99=1484ms A1, B1, Đạt có điều kiện
+time="2026-11-03T11:00:00+07:00" level=error msg="thresholds on metrics 'http_req_duration{api:checkout}' have been crossed"

@@ -1,0 +1,13 @@
+Lần chạy: peak-login (lần 2)
+Script: tests/peak-login.js
+Lệnh chạy: k6 run tests/peak-login.js
+Phiên bản k6: k6.EXE v2.3.0 (commit/e088784614, go1.26.8, windows/amd64)
+Bắt đầu: 2026-11-02T14:01:13+07:00
+Kết thúc: 2026-11-02T14:16:13+07:00
+Kết quả: Đạt threshold
+Nguồn đo tài nguyên: psutil
+
+| Thành phần | Chỉ số | Đỉnh | Trung bình | Đơn vị | Thời điểm đỉnh |
+|---|---|---:|---:|---|---|
+| Máy chạy test | CPU | 36.50 | 7.31 | % | 2026-11-02T14:12:48+07:00 |
+| Máy chạy test | RAM | 18.70 | 18.19 | GB | 2026-11-02T14:06:53+07:00 |

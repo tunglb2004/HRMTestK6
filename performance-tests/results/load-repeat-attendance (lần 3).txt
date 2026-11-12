@@ -1,0 +1,5 @@
+time="2026-11-02T16:20:25+07:00" level=info msg="Tài khoản: emp202@example.com (ACCOUNT_INDEX=1)" source=console
+
+=== PERF-004 ===
+Lỗi kỹ thuật: 0.00%
+checkout: mẫu=301 p95=100ms p99=111ms A3, B3, Đạt

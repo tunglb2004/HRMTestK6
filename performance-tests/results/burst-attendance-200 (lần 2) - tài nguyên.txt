@@ -1,0 +1,13 @@
+Lần chạy: burst-attendance-200 (lần 2)
+Script: tests/burst-attendance-200.js
+Lệnh chạy: k6 run -e ACTION=checkin tests/burst-attendance-200.js
+Phiên bản k6: k6.EXE v2.3.0 (commit/e088784614, go1.26.8, windows/amd64)
+Bắt đầu: 2026-11-03T08:33:29+07:00
+Kết thúc: 2026-11-03T08:42:16+07:00
+Kết quả: Có threshold bị vượt
+Nguồn đo tài nguyên: psutil
+
+| Thành phần | Chỉ số | Đỉnh | Trung bình | Đơn vị | Thời điểm đỉnh |
+|---|---|---:|---:|---|---|
+| Máy chạy test | CPU | 28.20 | 8.19 | % | 2026-11-03T08:36:22+07:00 |
+| Máy chạy test | RAM | 17.82 | 16.48 | GB | 2026-11-03T08:41:49+07:00 |

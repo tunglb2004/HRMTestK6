@@ -1,0 +1,35 @@
+time="2026-11-02T16:58:56+07:00" level=warning msg="emp203@example.com: không có địa điểm" source=console
+time="2026-11-02T16:58:56+07:00" level=warning msg="emp202@example.com: trạng thái checkedOut" source=console
+time="2026-11-02T16:58:57+07:00" level=warning msg="emp206@example.com: không có địa điểm" source=console
+time="2026-11-02T16:58:57+07:00" level=warning msg="emp207@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:01+07:00" level=warning msg="emp222@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:01+07:00" level=warning msg="emp223@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:02+07:00" level=warning msg="emp227@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:05+07:00" level=warning msg="emp243@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:05+07:00" level=warning msg="emp242@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:06+07:00" level=warning msg="emp246@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:11+07:00" level=warning msg="emp263@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:11+07:00" level=warning msg="emp266@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:14+07:00" level=warning msg="emp282@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:15+07:00" level=warning msg="emp283@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:16+07:00" level=warning msg="emp287@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:20+07:00" level=warning msg="emp302@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:21+07:00" level=warning msg="emp303@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:21+07:00" level=warning msg="emp306@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:25+07:00" level=warning msg="emp322@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:25+07:00" level=warning msg="emp323@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:26+07:00" level=warning msg="emp327@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:29+07:00" level=warning msg="emp342@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:30+07:00" level=warning msg="emp343@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:33+07:00" level=warning msg="emp362@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:34+07:00" level=warning msg="emp363@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:34+07:00" level=warning msg="emp366@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:35+07:00" level=warning msg="emp367@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:38+07:00" level=warning msg="emp381@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:38+07:00" level=warning msg="emp382@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:38+07:00" level=warning msg="emp383@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:39+07:00" level=warning msg="emp386@example.com: không có địa điểm" source=console
+time="2026-11-02T16:59:42+07:00" level=warning msg="emp401@example.com: trạng thái checkedOut" source=console
+
+Kiểm tra 200 tài khoản: {"expect":"notCheckedIn","ok":168,"loginFailed":0,"noShift":0,"noLocation":30,"wrongState":2}
+time="2026-11-02T16:59:43+07:00" level=error msg="thresholds on metrics 'account_no_location, account_ok, account_wrong_state' have been crossed"

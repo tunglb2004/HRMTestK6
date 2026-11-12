@@ -1,0 +1,5 @@
+
+=== PERF-009 ===
+Lỗi kỹ thuật: 0.00%
+checkin: mẫu=10 p95=872ms p99=895ms A2, B2, Đạt
+time="2026-11-02T15:50:23+07:00" level=error msg="thresholds on metrics 'attendance_success_count, data_integrity_errors' have been crossed"

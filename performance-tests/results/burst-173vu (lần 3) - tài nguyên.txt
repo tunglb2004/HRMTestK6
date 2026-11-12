@@ -1,0 +1,13 @@
+Lần chạy: burst-173vu (lần 3)
+Script: tests/burst-173vu.js
+Lệnh chạy: k6 run -e PHASE=login tests/burst-173vu.js
+Phiên bản k6: k6.EXE v2.3.0 (commit/e088784614, go1.26.8, windows/amd64)
+Bắt đầu: 2026-11-02T13:35:54+07:00
+Kết thúc: 2026-11-02T13:43:55+07:00
+Kết quả: Có threshold bị vượt
+Nguồn đo tài nguyên: psutil
+
+| Thành phần | Chỉ số | Đỉnh | Trung bình | Đơn vị | Thời điểm đỉnh |
+|---|---|---:|---:|---|---|
+| Máy chạy test | CPU | 15.30 | 4.73 | % | 2026-11-02T13:43:20+07:00 |
+| Máy chạy test | RAM | 18.23 | 17.99 | GB | 2026-11-02T13:43:42+07:00 |

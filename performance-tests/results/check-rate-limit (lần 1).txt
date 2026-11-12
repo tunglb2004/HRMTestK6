@@ -1,0 +1,3 @@
+
+Khong gap 429 sau 0 lan login thanh cong. Neu test dung som vi ly do khac, ket qua nay chua ket luan duoc.
+time="2026-11-02T10:16:46+07:00" level=error msg="test aborted: Chua co xac nhan cua chu moi truong. Them -e CONFIRM_ALLOWED=yes khi da duoc phep."

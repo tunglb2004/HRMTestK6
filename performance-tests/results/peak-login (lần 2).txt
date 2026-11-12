@@ -1,0 +1,4 @@
+
+=== PERF-005 ===
+Lỗi kỹ thuật: 0.00%
+login: mẫu=173 p95=281ms p99=538ms A3, B3, Đạt

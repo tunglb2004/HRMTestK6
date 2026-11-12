@@ -1,0 +1,4 @@
+
+=== PERF-002 ===
+Lỗi kỹ thuật: 0.02%
+login: mẫu=4182 p95=574ms p99=1025ms A2, B2, Đạt

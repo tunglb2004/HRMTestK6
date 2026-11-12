@@ -1,0 +1,221 @@
+{
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {
+            "setup": {
+                "checks": {
+                    "login: HTTP 200": {
+                        "path": "::setup::login: HTTP 200",
+                        "id": "51292e9ebc08ba9567607aa7f69c761f",
+                        "passes": 1,
+                        "fails": 0,
+                        "name": "login: HTTP 200"
+                    },
+                    "login: success = true": {
+                        "name": "login: success = true",
+                        "path": "::setup::login: success = true",
+                        "id": "6cfbca8012676e082c974899837893be",
+                        "passes": 1,
+                        "fails": 0
+                    }
+                },
+                "name": "setup",
+                "path": "::setup",
+                "id": "5c0f8025f7e0b6654089e5b00e950f1a",
+                "groups": {}
+            }
+        },
+        "checks": {}
+    },
+    "metrics": {
+        "vus": {
+            "min": 0,
+            "max": 0,
+            "value": 0
+        },
+        "http_req_connecting": {
+            "avg": 0.8094285245901639,
+            "min": 0,
+            "med": 0,
+            "max": 67.1826,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 26.465735999999996
+        },
+        "http_reqs{name:POST /v1/attendance/check-out}": {
+            "rate": 0.9996878609163784,
+            "count": 301,
+            "thresholds": {
+                "count>=0": false
+            }
+        },
+        "http_req_blocked": {
+            "min": 0,
+            "med": 0,
+            "max": 216.7826,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 68.819104,
+            "avg": 2.0881239344262292
+        },
+        "http_req_waiting": {
+            "p(99)": 118.29399599999978,
+            "avg": 66.567722295082,
+            "min": 0,
+            "med": 67.7294,
+            "max": 269.1996,
+            "p(90)": 87.55518000000001,
+            "p(95)": 94.88084
+        },
+        "data_received": {
+            "count": 237795,
+            "rate": 789.7700162345853
+        },
+        "iteration_duration": {
+            "p(95)": 101.6909,
+            "p(99)": 167.2281,
+            "avg": 76.27942458471763,
+            "min": 45.0106,
+            "med": 76.4025,
+            "max": 205.1455,
+            "p(90)": 94.8831
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 305,
+            "value": 0
+        },
+        "http_req_receiving": {
+            "p(95)": 22.63844,
+            "p(99)": 24.922079999999994,
+            "avg": 2.0059318032786884,
+            "min": 0,
+            "med": 0,
+            "max": 25.7456,
+            "p(90)": 1.0013
+        },
+        "checks": {
+            "passes": 2,
+            "fails": 0,
+            "value": 1
+        },
+        "iterations": {
+            "count": 301,
+            "rate": 0.9996878609163784
+        },
+        "vus_max": {
+            "min": 5,
+            "max": 5,
+            "value": 5
+        },
+        "tech_errors": {
+            "passes": 0,
+            "fails": 302,
+            "thresholds": {
+                "rate<0.01": false
+            },
+            "value": 0
+        },
+        "http_req_duration{expected_response:true}": {
+            "p(95)": 99.896,
+            "p(99)": 129.42201199999977,
+            "avg": 74.25102196721309,
+            "min": 6.4054,
+            "med": 75.5496,
+            "max": 269.1996,
+            "p(90)": 93.56096000000001
+        },
+        "expected_response_rate": {
+            "passes": 302,
+            "fails": 0,
+            "thresholds": {
+                "rate>=0.99": false
+            },
+            "value": 1
+        },
+        "data_sent": {
+            "count": 149409956,
+            "rate": 496223.6522034891
+        },
+        "http_req_failed{name:POST /v1/attendance/check-out}": {
+            "passes": 0,
+            "fails": 301,
+            "thresholds": {
+                "rate>=0": false
+            },
+            "value": 0
+        },
+        "http_reqs": {
+            "count": 305,
+            "rate": 1.0129727494335397
+        },
+        "rate_limited": {
+            "count": 301,
+            "rate": 0.9996878609163784
+        },
+        "http_req_duration": {
+            "p(95)": 99.896,
+            "p(99)": 129.42201199999977,
+            "avg": 74.25102196721309,
+            "min": 6.4054,
+            "med": 75.5496,
+            "max": 269.1996,
+            "p(90)": 93.56096000000001
+        },
+        "http_req_sending": {
+            "med": 5.2335,
+            "max": 85.6929,
+            "p(90)": 6.85016,
+            "p(95)": 7.832380000000001,
+            "p(99)": 24.601339999999688,
+            "avg": 5.67736786885246,
+            "min": 0
+        },
+        "data_integrity_errors": {
+            "count": 0,
+            "rate": 0,
+            "thresholds": {
+                "count==0": false
+            }
+        },
+        "http_req_tls_handshaking": {
+            "p(95)": 0,
+            "p(99)": 41.45819999999992,
+            "avg": 1.2269491803278687,
+            "min": 0,
+            "med": 0,
+            "max": 141.1292,
+            "p(90)": 0
+        },
+        "http_req_duration{api:checkout}": {
+            "avg": 72.81186046511627,
+            "min": 6.4054,
+            "med": 75.4267,
+            "max": 129.8676,
+            "p(90)": 93.0844,
+            "p(95)": 99.5687,
+            "p(99)": 110.9309,
+            "thresholds": {
+                "p(95)<1000": false,
+                "p(99)<2500": false
+            }
+        }
+    },
+    "setup_data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjQwLCJlbWFpbCI6ImVtcDIwMkBleGFtcGxlLmNvbSIsInJvbGUiOiJFTVBMT1lFRSIsImlhdCI6MTc5MzYxMTIyNywiZXhwIjoxNzkzNjk3NjI3fQ.e2znm02Acgd_j5512F5rhpaKCMFW6iORGMci6eYvcAw",
+        "before": {
+            "checkOutAt": "2026-11-02T09:15:34.355Z",
+            "id": 4746,
+            "isLocked": false,
+            "status": "PRESENT",
+            "checkInAt": null
+        },
+        "date": "2026-11-02",
+        "location": {
+            "latitude": 21.016573008161775,
+            "longitude": 105.85189819335939
+        }
+    }
+}

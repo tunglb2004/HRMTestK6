@@ -1,0 +1,5 @@
+
+=== PERF-006 ===
+Lỗi kỹ thuật: 0.00%
+login: mẫu=655 p95=244ms p99=276ms A3, B3, Đạt
+Phục hồi: Đã phục hồi

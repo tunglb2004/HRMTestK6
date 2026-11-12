@@ -1,0 +1,3 @@
+time="2026-11-02T14:01:03+07:00" level=info msg="Preflight: {\"date\":\"2026-11-02\",\"hasShift\":true,\"isHoliday\":false,\"shift\":{\"name\":\"Ca hành chính HN\",\"checkInTime\":\"08:30\",\"checkOutTime\":\"18:00\",\"isOnline\":false},\"locations\":1,\"state\":\"notCheckedIn\"}" source=console
+
+Checks đạt: 2

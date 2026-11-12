@@ -1,0 +1,181 @@
+{
+    "root_group": {
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {},
+        "name": ""
+    },
+    "metrics": {
+        "data_received": {
+            "count": 0,
+            "rate": 0
+        },
+        "http_req_duration{scenario:probe,window:w4}": {
+            "p(95)": 0,
+            "p(99)": 0,
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "thresholds": {
+                "p(95)>=0": false
+            }
+        },
+        "http_req_duration{scenario:probe,window:w3}": {
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0,
+            "avg": 0,
+            "min": 0,
+            "thresholds": {
+                "p(95)>=0": false
+            }
+        },
+        "http_req_duration{api:login}": {
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0,
+            "avg": 0,
+            "thresholds": {
+                "p(95)>=0": false
+            }
+        },
+        "http_req_duration{scenario:probe,window:w0}": {
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0,
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "thresholds": {
+                "p(95)>=0": false
+            }
+        },
+        "http_req_duration{scenario:probe,window:w2}": {
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0,
+            "thresholds": {
+                "p(95)>=0": false
+            }
+        },
+        "http_req_failed{name:POST /v1/auth/login}": {
+            "passes": 0,
+            "fails": 0,
+            "thresholds": {
+                "rate>=0": false
+            },
+            "value": 0
+        },
+        "http_req_duration": {
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0
+        },
+        "http_reqs": {
+            "count": 0,
+            "rate": 0
+        },
+        "http_req_duration{scenario:probe,window:w6}": {
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0,
+            "avg": 0,
+            "thresholds": {
+                "p(95)>=0": false
+            }
+        },
+        "data_sent": {
+            "count": 0,
+            "rate": 0
+        },
+        "http_req_duration{scenario:probe,window:w7}": {
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0,
+            "thresholds": {
+                "p(95)>=0": false
+            }
+        },
+        "http_req_duration{scenario:probe,window:w1}": {
+            "p(99)": 0,
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "thresholds": {
+                "p(95)>=0": false
+            }
+        },
+        "http_req_duration{api:login,scenario:burst}": {
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0,
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "thresholds": {
+                "p(95)<1000": false,
+                "p(99)<2500": false
+            }
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 0,
+            "value": 0
+        },
+        "http_reqs{name:POST /v1/auth/login}": {
+            "rate": 0,
+            "count": 0,
+            "thresholds": {
+                "count>=0": false
+            }
+        },
+        "tech_errors": {
+            "passes": 0,
+            "fails": 0,
+            "thresholds": {
+                "rate<0.01": false
+            },
+            "value": 0
+        },
+        "http_req_duration{scenario:probe,window:w5}": {
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0,
+            "p(99)": 0,
+            "avg": 0,
+            "min": 0,
+            "thresholds": {
+                "p(95)>=0": false
+            }
+        }
+    }
+}

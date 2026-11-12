@@ -1,0 +1,13 @@
+Lần chạy: peak-attendance-200 (lần 1)
+Script: tests/peak-attendance-200.js
+Lệnh chạy: k6 run -e ACTION=checkin tests/peak-attendance-200.js
+Phiên bản k6: k6.EXE v2.3.0 (commit/e088784614, go1.26.8, windows/amd64)
+Bắt đầu: 2026-11-03T08:48:08+07:00
+Kết thúc: 2026-11-03T09:03:05+07:00
+Kết quả: Đạt threshold
+Nguồn đo tài nguyên: psutil
+
+| Thành phần | Chỉ số | Đỉnh | Trung bình | Đơn vị | Thời điểm đỉnh |
+|---|---|---:|---:|---|---|
+| Máy chạy test | CPU | 24.30 | 6.58 | % | 2026-11-03T08:51:46+07:00 |
+| Máy chạy test | RAM | 18.50 | 17.49 | GB | 2026-11-03T08:56:59+07:00 |

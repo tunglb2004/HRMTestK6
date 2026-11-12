@@ -1,0 +1,13 @@
+Lần chạy: smoke-attendance (lần 2)
+Script: tests/smoke-attendance.js
+Lệnh chạy: k6 run -e PHASE=checkin tests/smoke-attendance.js
+Phiên bản k6: k6.EXE v2.3.0 (commit/e088784614, go1.26.8, windows/amd64)
+Bắt đầu: 2026-11-03T08:30:59+07:00
+Kết thúc: 2026-11-03T08:31:02+07:00
+Kết quả: Đạt threshold
+Nguồn đo tài nguyên: psutil
+
+| Thành phần | Chỉ số | Đỉnh | Trung bình | Đơn vị | Thời điểm đỉnh |
+|---|---|---:|---:|---|---|
+| Máy chạy test | CPU | 4.20 | 4.20 | % | 2026-11-03T08:31:01+07:00 |
+| Máy chạy test | RAM | 14.64 | 14.64 | GB | 2026-11-03T08:31:01+07:00 |

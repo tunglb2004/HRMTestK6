@@ -1,0 +1,4 @@
+[
+  {"component": "Máy chạy test", "metric": "CPU", "unit": "%", "query": "100 * (1 - avg(rate(windows_cpu_time_total{job=\"windows\",mode=\"idle\"}[1m])))"},
+  {"component": "Máy chạy test", "metric": "RAM", "unit": "GB", "query": "(windows_memory_physical_total_bytes{job=\"windows\"} - windows_memory_physical_free_bytes{job=\"windows\"}) / 1024 / 1024 / 1024"}
+]

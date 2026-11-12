@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 5s
+
+# Backend dev la NestJS o may chu tu xa, khong co quyen truy cap nen khong thu so lieu backend, database.
+# Chi thu may chay k6 qua windows_exporter tren cong 9182.
+scrape_configs:
+  - job_name: windows
+    static_configs:
+      - targets: ["host.docker.internal:9182"]

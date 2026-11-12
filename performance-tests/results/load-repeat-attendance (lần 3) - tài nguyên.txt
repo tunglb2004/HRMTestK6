@@ -1,0 +1,13 @@
+Lần chạy: load-repeat-attendance (lần 3)
+Script: tests/load-repeat-attendance.js
+Lệnh chạy: k6 run -e ACTION=checkout tests/load-repeat-attendance.js
+Phiên bản k6: k6.EXE v2.3.0 (commit/e088784614, go1.26.8, windows/amd64)
+Bắt đầu: 2026-11-02T16:20:25+07:00
+Kết thúc: 2026-11-02T16:25:27+07:00
+Kết quả: Đạt threshold
+Nguồn đo tài nguyên: psutil
+
+| Thành phần | Chỉ số | Đỉnh | Trung bình | Đơn vị | Thời điểm đỉnh |
+|---|---|---:|---:|---|---|
+| Máy chạy test | CPU | 10.80 | 4.54 | % | 2026-11-02T16:24:55+07:00 |
+| Máy chạy test | RAM | 17.82 | 17.66 | GB | 2026-11-02T16:20:29+07:00 |

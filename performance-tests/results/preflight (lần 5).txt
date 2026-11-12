@@ -1,0 +1,4 @@
+time="2026-11-03T08:19:37+07:00" level=info msg="Tài khoản: bachtungluu@gmail.com (HRM_EMAIL)" source=console
+time="2026-11-03T08:19:38+07:00" level=info msg="Preflight: {\"date\":\"2026-11-03\",\"hasShift\":true,\"isHoliday\":false,\"shift\":{\"name\":\"Ca hành chính HN\",\"checkInTime\":\"08:30\",\"checkOutTime\":\"18:00\",\"isOnline\":false},\"locations\":1,\"state\":\"notCheckedIn\"}" source=console
+
+Checks đạt: 2

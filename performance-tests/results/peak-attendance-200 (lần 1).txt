@@ -1,0 +1,5 @@
+
+=== PERF-017 ===
+Lỗi kỹ thuật: 0.00%
+login: mẫu=200 p95=262ms p99=290ms A3, B3, Đạt
+checkin: mẫu=200 p95=950ms p99=1267ms A2, B2, Đạt

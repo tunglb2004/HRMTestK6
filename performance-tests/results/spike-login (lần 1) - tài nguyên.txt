@@ -1,0 +1,13 @@
+Lần chạy: spike-login (lần 1)
+Script: tests/spike-login.js
+Lệnh chạy: k6 run tests/spike-login.js
+Phiên bản k6: k6.EXE v2.3.0 (commit/e088784614, go1.26.8, windows/amd64)
+Bắt đầu: 2026-11-02T10:20:22+07:00
+Kết thúc: 2026-11-02T10:20:22+07:00
+Kết quả: k6 dừng với mã 107
+Nguồn đo tài nguyên: Prometheus http://localhost:9090
+
+| Thành phần | Chỉ số | Đỉnh | Trung bình | Đơn vị | Thời điểm đỉnh |
+|---|---|---:|---:|---|---|
+| Máy chạy test | CPU | không có dữ liệu |  | % |  |
+| Máy chạy test | RAM | không có dữ liệu |  | GB |  |

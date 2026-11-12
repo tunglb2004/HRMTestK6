@@ -1,0 +1,35 @@
+{
+  "title": "k6 và tài nguyên",
+  "uid": "k6-tai-nguyen",
+  "schemaVersion": 39,
+  "refresh": "5s",
+  "time": {"from": "now-15m", "to": "now"},
+  "panels": [
+    {"id": 1, "title": "RPS", "type": "timeseries", "datasource": {"uid": "prometheus"}, "gridPos": {"x": 0, "y": 0, "w": 12, "h": 8},
+      "fieldConfig": {"defaults": {"unit": "reqps"}},
+      "targets": [{"refId": "A", "expr": "sum(rate(k6_http_reqs_total[30s]))", "legendFormat": "RPS"}]},
+    {"id": 2, "title": "Thời gian phản hồi p95, p99", "type": "timeseries", "datasource": {"uid": "prometheus"}, "gridPos": {"x": 12, "y": 0, "w": 12, "h": 8},
+      "fieldConfig": {"defaults": {"unit": "s"}},
+      "targets": [
+        {"refId": "A", "expr": "max({__name__=~\"k6_http_req_duration(_seconds)?_p95\"})", "legendFormat": "p95"},
+        {"refId": "B", "expr": "max({__name__=~\"k6_http_req_duration(_seconds)?_p99\"})", "legendFormat": "p99"}
+      ]},
+    {"id": 3, "title": "Tỷ lệ lỗi HTTP", "type": "timeseries", "datasource": {"uid": "prometheus"}, "gridPos": {"x": 0, "y": 8, "w": 12, "h": 8},
+      "fieldConfig": {"defaults": {"unit": "percentunit"}},
+      "targets": [{"refId": "A", "expr": "avg(k6_http_req_failed_rate)", "legendFormat": "lỗi"}]},
+    {"id": 4, "title": "VU", "type": "timeseries", "datasource": {"uid": "prometheus"}, "gridPos": {"x": 12, "y": 8, "w": 12, "h": 8},
+      "targets": [{"refId": "A", "expr": "sum(k6_vus)", "legendFormat": "VU"}]},
+    {"id": 5, "title": "CPU", "type": "timeseries", "datasource": {"uid": "prometheus"}, "gridPos": {"x": 0, "y": 16, "w": 12, "h": 8},
+      "fieldConfig": {"defaults": {"unit": "percent"}},
+      "targets": [
+        {"refId": "A", "expr": "100 * max(process_cpu_usage{job=\"backend\"})", "legendFormat": "Backend"},
+        {"refId": "B", "expr": "100 * (1 - avg(rate(windows_cpu_time_total{job=\"windows\",mode=\"idle\"}[1m])))", "legendFormat": "Toàn máy"}
+      ]},
+    {"id": 6, "title": "RAM", "type": "timeseries", "datasource": {"uid": "prometheus"}, "gridPos": {"x": 12, "y": 16, "w": 12, "h": 8},
+      "fieldConfig": {"defaults": {"unit": "bytes"}},
+      "targets": [
+        {"refId": "A", "expr": "sum(jvm_memory_used_bytes{job=\"backend\"})", "legendFormat": "Backend (JVM)"},
+        {"refId": "B", "expr": "windows_memory_physical_total_bytes{job=\"windows\"} - windows_memory_physical_free_bytes{job=\"windows\"}", "legendFormat": "Toàn máy"}
+      ]}
+  ]
+}

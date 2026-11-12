@@ -1,0 +1,16 @@
+time="2026-11-02T16:11:55+07:00" level=info msg="Tài khoản: emp202@example.com (ACCOUNT_INDEX=1)" source=console
+time="2026-11-02T16:11:59+07:00" level=warning msg="POST /v1/attendance/check-in: HTTP 429 UNKNOWN_ERROR Đã vượt quá số lần check-in cho phép trong ngày (tối đa 5 lần)" source=console
+time="2026-11-02T16:12:00+07:00" level=warning msg="POST /v1/attendance/check-in: HTTP 429 UNKNOWN_ERROR Đã vượt quá số lần check-in cho phép trong ngày (tối đa 5 lần)" source=console
+time="2026-11-02T16:12:00+07:00" level=warning msg="POST /v1/attendance/check-in: HTTP 429 UNKNOWN_ERROR Đã vượt quá số lần check-in cho phép trong ngày (tối đa 5 lần)" source=console
+time="2026-11-02T16:12:00+07:00" level=warning msg="POST /v1/attendance/check-in: HTTP 429 UNKNOWN_ERROR Đã vượt quá số lần check-in cho phép trong ngày (tối đa 5 lần)" source=console
+time="2026-11-02T16:12:00+07:00" level=warning msg="POST /v1/attendance/check-in: HTTP 400 BAD_REQUEST Đã hết giờ check-in (quá 11:00). Vui lòng tạo phiếu giải trình." source=console
+time="2026-11-02T16:12:00+07:00" level=warning msg="POST /v1/attendance/check-in: HTTP 429 UNKNOWN_ERROR Đã vượt quá số lần check-in cho phép trong ngày (tối đa 5 lần)" source=console
+time="2026-11-02T16:12:00+07:00" level=warning msg="POST /v1/attendance/check-in: HTTP 400 BAD_REQUEST Đã hết giờ check-in (quá 11:00). Vui lòng tạo phiếu giải trình." source=console
+time="2026-11-02T16:12:00+07:00" level=warning msg="POST /v1/attendance/check-in: HTTP 400 BAD_REQUEST Đã hết giờ check-in (quá 11:00). Vui lòng tạo phiếu giải trình." source=console
+time="2026-11-02T16:12:00+07:00" level=warning msg="POST /v1/attendance/check-in: HTTP 400 BAD_REQUEST Đã hết giờ check-in (quá 11:00). Vui lòng tạo phiếu giải trình." source=console
+time="2026-11-02T16:12:00+07:00" level=warning msg="POST /v1/attendance/check-in: HTTP 400 BAD_REQUEST Đã hết giờ check-in (quá 11:00). Vui lòng tạo phiếu giải trình." source=console
+
+=== PERF-009 ===
+Lỗi kỹ thuật: 0.00%
+checkin: mẫu=10 p95=1166ms p99=1261ms A1, B1, Đạt có điều kiện
+time="2026-11-02T16:12:01+07:00" level=error msg="thresholds on metrics 'attendance_success_count, data_integrity_errors' have been crossed"

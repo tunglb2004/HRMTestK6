@@ -1,0 +1,6 @@
+time="2026-11-03T08:30:59+07:00" level=info msg="Tài khoản: bachtungluu@gmail.com (HRM_EMAIL)" source=console
+
+=== PERF-001 ===
+Lỗi kỹ thuật: 0.00%
+login: mẫu=2 p95=185ms p99=185ms A3, B3, Đạt
+checkin: mẫu=1 p95=925ms p99=925ms A2, B2, Đạt

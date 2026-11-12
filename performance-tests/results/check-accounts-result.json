@@ -1,0 +1,8 @@
+{
+  "expect": "checkedOut",
+  "ok": 200,
+  "loginFailed": 0,
+  "noShift": 0,
+  "noLocation": 0,
+  "wrongState": 0
+}

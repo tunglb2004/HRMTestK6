@@ -1,0 +1,13 @@
+Lần chạy: race-attendance (lần 3)
+Script: tests/race-attendance.js
+Lệnh chạy: k6 run -e ACTION=checkin tests/race-attendance.js
+Phiên bản k6: k6.EXE v2.3.0 (commit/e088784614, go1.26.8, windows/amd64)
+Bắt đầu: 2026-11-02T15:50:18+07:00
+Kết thúc: 2026-11-02T15:50:23+07:00
+Kết quả: Có threshold bị vượt
+Nguồn đo tài nguyên: psutil
+
+| Thành phần | Chỉ số | Đỉnh | Trung bình | Đơn vị | Thời điểm đỉnh |
+|---|---|---:|---:|---|---|
+| Máy chạy test | CPU | 14.00 | 9.50 | % | 2026-11-02T15:50:20+07:00 |
+| Máy chạy test | RAM | 17.71 | 17.70 | GB | 2026-11-02T15:50:20+07:00 |

@@ -1,0 +1,6 @@
+
+Bac 1/s: ok=31 dropped=0 med=166ms p95=231ms p99=261ms max=268ms
+Bac 5/s: ok=151 dropped=0 med=168ms p95=214ms p99=225ms max=242ms
+Bac 12/s: ok=361 dropped=0 med=153ms p95=391ms p99=985ms max=1349ms
+Bac 35/s: ok=151 dropped=25 med=3190ms p95=6414ms p99=9375ms max=9469ms
+Khong gap 429 sau 694 lan login thanh cong. Neu test dung som vi ly do khac, ket qua nay chua ket luan duoc.

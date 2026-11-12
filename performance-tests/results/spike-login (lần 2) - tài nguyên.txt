@@ -1,0 +1,13 @@
+Lần chạy: spike-login (lần 2)
+Script: tests/spike-login.js
+Lệnh chạy: k6 run tests/spike-login.js
+Phiên bản k6: k6.EXE v2.3.0 (commit/e088784614, go1.26.8, windows/amd64)
+Bắt đầu: 2026-11-02T14:17:28+07:00
+Kết thúc: 2026-11-02T14:25:29+07:00
+Kết quả: Đạt threshold
+Nguồn đo tài nguyên: psutil
+
+| Thành phần | Chỉ số | Đỉnh | Trung bình | Đơn vị | Thời điểm đỉnh |
+|---|---|---:|---:|---|---|
+| Máy chạy test | CPU | 18.40 | 6.80 | % | 2026-11-02T14:23:54+07:00 |
+| Máy chạy test | RAM | 18.48 | 18.11 | GB | 2026-11-02T14:24:22+07:00 |

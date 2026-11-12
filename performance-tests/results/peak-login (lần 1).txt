@@ -1,0 +1,5 @@
+
+=== PERF-005 ===
+Lỗi kỹ thuật: 0.00%
+login: mẫu=0 p95=0ms p99=0ms A3, B3, Đạt
+time="2026-11-02T10:20:01+07:00" level=error msg="Error: Chưa xác nhận được phép chạy. Đặt CONFIRM_ALLOWED=yes khi chủ môi trường đã đồng ý.\n\tat requireRunPermission (file:///G:/TestK6/performance-tests/config/env.js:17:11(8))\n\tat setup (file:///G:/TestK6/performance-tests/tests/peak-login.js:23:23(3))\n" hint="script exception" source=stacktrace

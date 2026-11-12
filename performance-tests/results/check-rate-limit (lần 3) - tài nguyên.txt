@@ -1,0 +1,13 @@
+Lần chạy: check-rate-limit (lần 3)
+Script: seed/check-rate-limit.js
+Lệnh chạy: k6 run seed/check-rate-limit.js
+Phiên bản k6: k6.EXE v2.3.0 (commit/e088784614, go1.26.8, windows/amd64)
+Bắt đầu: 2026-11-02T10:29:40+07:00
+Kết thúc: 2026-11-02T10:31:36+07:00
+Kết quả: Đạt threshold
+Nguồn đo tài nguyên: psutil
+
+| Thành phần | Chỉ số | Đỉnh | Trung bình | Đơn vị | Thời điểm đỉnh |
+|---|---|---:|---:|---|---|
+| Máy chạy test | CPU | 19.00 | 9.61 | % | 2026-11-02T10:31:21+07:00 |
+| Máy chạy test | RAM | 16.75 | 16.56 | GB | 2026-11-02T10:29:48+07:00 |

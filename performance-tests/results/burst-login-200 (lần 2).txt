@@ -1,0 +1,6 @@
+
+=== PERF-014 ===
+Lỗi kỹ thuật: 0.00%
+login: mẫu=678 p95=6601ms p99=12310ms A0, B0, Không đạt
+Phục hồi: Đã phục hồi
+time="2026-11-02T15:23:29+07:00" level=error msg="thresholds on metrics 'http_req_duration{api:login,scenario:burst}, http_req_duration{api:login}' have been crossed"

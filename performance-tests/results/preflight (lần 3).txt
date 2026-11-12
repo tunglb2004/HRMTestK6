@@ -1,0 +1,4 @@
+time="2026-11-02T16:10:21+07:00" level=info msg="Tài khoản: emp202@example.com (ACCOUNT_INDEX=1)" source=console
+time="2026-11-02T16:10:21+07:00" level=error msg="Error: Tài khoản chưa được gán địa điểm chấm công.\n\tat locationOf (file:///G:/TestK6/performance-tests/lib/attendance.js:36:11(14))\n\tat default (file:///G:/TestK6/performance-tests/seed/preflight.js:12:13(11))\n" executor=shared-iterations hint="script exception" scenario=default source=stacktrace
+
+Checks đạt: 2
